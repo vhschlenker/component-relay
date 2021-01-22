@@ -68,7 +68,7 @@ declare type ContentReference = {
   content_type: string;
 }
 
-declare type PayloadContent = {
+export declare type PayloadContent = {
   [key: string]: any;
   references: ContentReference[];
 }
