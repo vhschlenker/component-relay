@@ -111,6 +111,8 @@ type ItemPayload = {
   [key: string]: any
 }
 
+export * from './snjsTypes'
+
 export default class ComponentRelay {
   private contentWindow: Window;
   private initialPermissions?: ComponentPermission[];
