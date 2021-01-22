@@ -35,6 +35,7 @@ declare type ItemPayload = {
     content?: any;
     [key: string]: any;
 };
+export * from './snjsTypes';
 export default class ComponentRelay {
     private contentWindow;
     private initialPermissions?;
@@ -209,4 +210,3 @@ export default class ComponentRelay {
      */
     getItemAppDataValue(item: SNItem, key: AppDataField): any;
 }
-export {};

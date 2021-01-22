@@ -62,7 +62,7 @@ declare type ContentReference = {
     uuid: string;
     content_type: string;
 };
-declare type PayloadContent = {
+export declare type PayloadContent = {
     [key: string]: any;
     references: ContentReference[];
 };
